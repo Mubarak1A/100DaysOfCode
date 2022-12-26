@@ -2,7 +2,7 @@
 
 # 100 days of Full Stack coding.
 
-# I'm starting the #100DayOfCode challenge
+# I'm starting the #100DaysOfCode challenge
 
 - I will be practicing full stack coding for the next 100 days
 - Using The Odin Project as my scheduled curricullum.
