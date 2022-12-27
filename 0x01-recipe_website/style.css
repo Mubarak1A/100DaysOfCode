@@ -4,13 +4,15 @@ body{
     background-color: white;
     font-family: cyrillic, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 20px;
+    padding-bottom: 0px;
     margin: 0px;
     font-size: 20px;
 }
 
 .header{
-    background: antiquewhite;
-    background-color: white;
+    height: 20%;
+    background: greenyellow;
+    background-color: greenyellow;
     border-bottom: solid 2px yellow;
     padding-top: 2px;
     padding-bottom:10px;
@@ -22,20 +24,18 @@ body{
     font-family: 'cyrillic','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.plate{
-    width: 2px;
-    height: 4px;
-}
-
-h1{
-    background-color: white;
+#head{
+    background-color: greenyellow;
     padding: 0px;
     margin: 0px;
 }
 
-#main{
+.Section, .sec{
+    height: 80%;
+}
+#main, .sec{
     padding: 15px;
-    background-color: white;
+    background-color:antiquewhite;
     display: block;
     text-align: center;
 }
@@ -57,14 +57,15 @@ h1{
     background-color: rgb(228, 248, 228);
     align-content: center;
     padding-top: 5px;
+    margin: 10px 0px;
 }
 
 #top{
+    margin: 10px 0px;
     text-align: center;
    /* border: solid green 2px;
     width: 50%;*/
     justify-self: center;
-    margin-top: 10px;
     color: green;
 }
 
@@ -103,6 +104,39 @@ a :hover{
     padding: 0px;
     text-align: center;
     padding-bottom: 1px;
+    margin-bottom: 0px;
     color: white;
     font-family: 'cyrillic','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sec img{
+    width: 600px;
+    height: auto;
+}
+
+.ingredient, #ingre, .method, #meth, #fact{
+    text-align: left;
+    margin: 10px 0px;
+    border: solid greenyellow 2px;
+    padding-left: 5px ;
+}
+
+#ingre, #meth{
+    border: 0px;
+}
+
+#fact{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#fact-container{
+    display: flex;
+    align-content: center;
+}
+
+.facts{
+
+    margin: 0px 40px;
+    font-weight: bold;
 }
