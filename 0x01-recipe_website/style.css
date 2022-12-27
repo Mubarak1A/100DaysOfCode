@@ -6,7 +6,8 @@ body{
     padding: 20px;
     padding-bottom: 0px;
     margin: 0px;
-    font-size: 20px;
+    font-size: 35px;
+    line-spacing: 1.5px;
 }
 
 .header{
