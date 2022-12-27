@@ -1,7 +1,7 @@
 @import url(fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
 
 body{
-    background-color:antiquewhite;
+    background-color: white;
     font-family: cyrillic, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 20px;
     margin: 0px;
@@ -9,7 +9,7 @@ body{
 }
 
 .header{
-    background: white;
+    background: antiquewhite;
     background-color: white;
     border-bottom: solid 2px yellow;
     padding-top: 2px;
