@@ -1,6 +1,6 @@
-# Day 1 of 100DaysofCoding
+# Day1, Day2 of 100DaysofCoding
 
-Will be building a simple recipe website using HTML/CSS to revise my knowlegde in HTML/CSS.
+Building a simple recipe website using HTML/CSS to revise my knowlegde in HTML/CSS.
 
 # What I Will be Practising;
 	- HTML
@@ -11,4 +11,5 @@ Will be building a simple recipe website using HTML/CSS to revise my knowlegde i
 	- CSS
 		- Selectors(Type, Class, ID e.t.c)
 		- Box Model
+		- Flex Box
 	And more. 
