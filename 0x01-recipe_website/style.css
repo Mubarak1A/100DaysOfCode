@@ -126,6 +126,7 @@ a :hover{
     color: green;
     font-size:large;
     font-weight:900;
+    line-height: 1.5px;
     font-family: 'cyrillic','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
