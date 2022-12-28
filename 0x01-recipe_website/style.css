@@ -7,7 +7,7 @@ body{
     padding-bottom: 0px;
     margin: 0px;
     font-size: 35px;
-    line-spacing: 1.5px;
+    line-height: 1;
 }
 
 .header{
@@ -55,27 +55,30 @@ body{
 }
 
 .others{
+    display: flex;
+    flex-direction: column;
     background-color: rgb(228, 248, 228);
-    align-content: center;
-    padding-top: 5px;
+    padding: 10px;
     margin: 10px 0px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #top{
-    margin: 10px 0px;
-    text-align: center;
-   /* border: solid green 2px;
-    width: 50%;*/
+    margin: 30px 0px;
+    padding: 15px 50px;
     justify-self: center;
-    color: green;
+    color: white;
+    border: solid olivedrab 5px;
+    border-radius: 20px;
+    background-color: orangered;
+    text-align: center;
 }
 
 .others img{
-    width: 350px;
-    height: 300px;
-    display: block;
-    align-content: center;
-    border: ;
+    width: 600px;
+    height: 500px;
+    border: solid olivedrab 2px;
 }
 
 a :hover{
@@ -86,58 +89,95 @@ a :hover{
 .other{
     display: flex;
     justify-content: space-around;
-    /*border-top: solid green 2px;*/
-    padding-top: 10px;
-    margin-bottom: 0px;
+    align-items: center;
+    flex: 1 1 auto;
+    /*border: solid red 2px;*/
 }
 
 .one, .two{
-   /* border: solid green 2px;*/
-    height: max-content;
-    width: 350px;
+    border: solid olivedrab 2px;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 600px;
+    margin: 20px;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    align-self: center;
     text-align: center;
-    margin: 0px 10px;
 }
 
 .footer{
-    background-color: rgb(153, 243, 51);
+    height: 20%;
+    background: greenyellow;
+    background-color: greenyellow;
     border-top: solid 2px yellow;
-    padding: 0px;
+    padding-top: 2px;
+    padding-bottom:10px;
+    margin-bottom: 20px;
     text-align: center;
-    padding-bottom: 1px;
-    margin-bottom: 0px;
     color: green;
+    font-size:large;
+    font-weight: bolder;
+    font-family: 'cyrillic','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer p{
+    color: green;
+    font-size:large;
+    font-weight:900;
     font-family: 'cyrillic','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .sec img{
     width: 600px;
     height: auto;
+    border: solid yellowgreen 5px;
 }
 
 .ingredient, #ingre, .method, #meth, #fact{
     text-align: left;
     margin: 10px 0px;
     border: solid green 2px;
-    padding-left: 5px ;
+    padding-left: 15px ;
 }
 
 #ingre, #meth{
-    border: 0px;
+    width: max-content;
+    padding: 15px 15px;
+    color: white;
+    border: solid olivedrab 2px;
+    border-radius: 20px;
+    background-color: orangered;
 }
 
 #fact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
-    padding-bottom: 10px;
+    padding: 0px;
 }
 
 #fact-container{
     display: flex;
-    align-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 10px;
+    
+}
+
+#fact h3{
+    margin: ;
+    /*width:max-content;*/
+    padding:15px 15px;
+    color:white;
+    border:solid olivedrab 2px;
+    border-radius: 20px;
+    background-color: orangered;
 }
 
 .facts{
-
-    margin: 0px 40px;
     font-weight: bold;
 }
