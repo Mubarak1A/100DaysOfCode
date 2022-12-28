@@ -106,7 +106,7 @@ a :hover{
     text-align: center;
     padding-bottom: 1px;
     margin-bottom: 0px;
-    color: white;
+    color: green;
     font-family: 'cyrillic','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -118,7 +118,7 @@ a :hover{
 .ingredient, #ingre, .method, #meth, #fact{
     text-align: left;
     margin: 10px 0px;
-    border: solid greenyellow 2px;
+    border: solid green 2px;
     padding-left: 5px ;
 }
 
