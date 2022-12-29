@@ -12,4 +12,4 @@ Starting Javascript basics to refresh my previous knowledge of the language.
 	- Nesting
 	- Functions
 
-I will be writing some functions to implement all topics.
+I will be writing some browser console based functions to implement what i learn.
