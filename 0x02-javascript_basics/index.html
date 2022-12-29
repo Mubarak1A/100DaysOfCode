@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Js Basics on Console.</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <script>
+            /* function add7
+             * takes one number as argument
+             * return the number + 7
+             */
+            function add7(number){
+                return(number + 7);
+            }
+            console.log("The sum of 2 and 7 is " + add7(2));
+            console.log("The sum of 10.1 and 7 is " + add7(10.1));
+            console.log("The sum of -2 and 7 is " + add7(-2));
+            console.log("\n");
+
+
+            /* function multiply
+             * takes two numbers as arguments
+             * returns their product.
+             */
+            function multiply(num1, num2){
+                return(num1 * num2);
+            }
+            console.log("The product of 5 and 10 is " + multiply(5, 10));
+            console.log("The product of 5.8 and 3.1 is " + multiply(5.8, 3.1));
+            console.log("The product of -5 and 9.5 is " + multiply(-5, 9.5));
+            console.log("\n");
+
+            /* function capitalize
+             * takes a sting as argument
+             * return the string with only the first letter capitalize
+             */
+            function capitalize(str){
+                return(str.charAt(0).toUpperCase() + str.slice(1).toLowerCase());
+            }
+            console.log("The capitalize form of spicam is " + capitalize("spicam"));
+            console.log("The capitalize form of SPICAM is " + capitalize("SPICAM"));
+            console.log("The capitalize form of sPiCaM is " + capitalize("sPiCaM"));
+            console.log("\n");
+
+            /* function lastletter
+             * takes a string as an argument
+             * return only the last letter of the string
+             */
+            function lastletter(str){
+                return(str.charAt(str.length-1));
+            }
+            console.log("The last letter of Spicam is " + lastletter("Spicam"));
+            console.log("The last letter of SPICAM is " + lastletter("SPICAM"));
+
+
+        </script>
+    </body>
+</html>
