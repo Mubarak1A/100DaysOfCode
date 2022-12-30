@@ -1,0 +1,21 @@
+body{
+    background-color: antiquewhite;
+    border: solid blueviolet 5px;
+    text-align: center;
+    color: blueviolet;
+    font: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img{
+   margin: 20px 0px;
+}
+
+footer{
+    line-height: 3px;
+    text-align: center;
+    color: white;
+    background-color: blueviolet;
+    padding: 3px;
+}
+
