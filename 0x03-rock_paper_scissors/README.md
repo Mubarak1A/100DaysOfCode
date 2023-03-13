@@ -1,7 +1,7 @@
-# DAY5 of 100DaysOfCode
+# Rock_Paper_Scissors
 
-To implement what i learnt on Day4, i decide to start the ROCK PAPER SCISSORS game.
+To implement what i learnt on JavaScript_basics, i decide to start the ROCK PAPER SCISSORS game.
 
-Just console base only yet.
+Just console base only.
 
 No GUI yet. 
