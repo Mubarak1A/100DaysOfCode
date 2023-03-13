@@ -1,8 +1,8 @@
-# Day4 of 100DaysOfCode
+# JavaScript_basics
 
 Starting Javascript basics to refresh my previous knowledge of the language.
 
-# What i will be revising;
+# What i will be reviewing;
 	- Varibles and constant (Declaration, initialization and calling/using)
 	- Numbers
 	- Operators
