@@ -1,4 +1,4 @@
-# Day1, Day2, Day3 of 100DaysofCoding
+# Recipe_Website
 
 Building a simple recipe website using HTML/CSS to revise my knowlegde in HTML/CSS.
 
