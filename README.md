@@ -1,4 +1,4 @@
-# Some-Frontend_Projects
+# Frontend
 
 # This repo will contain some basic frontend projects 
 
